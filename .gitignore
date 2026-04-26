@@ -1,0 +1,53 @@
+.env
+config
+.DS_Store
+.agents
+.agent
+.kiro
+.opencode
+.antigravity
+
+A00 - Notes/*
+!A00 - Notes/.gitkeep
+
+A01 - Tasks/01 - Inbox/*
+A01 - Tasks/02 - InProgress/*
+A01 - Tasks/03 - Completed/*
+!A01 - Tasks/01 - Inbox/.gitkeep
+!A01 - Tasks/02 - InProgress/.gitkeep
+!A01 - Tasks/03 - Completed/.gitkeep
+
+A02 - Meetings/*
+!A02 - Meetings/.gitkeep
+
+A03 - Supports/*
+!A03 - Supports/.gitkeep
+
+A04 - References/*
+!A04 - References/.gitkeep
+
+A05 - KnowledgeBase/*
+!A05 - KnowledgeBase/.gitkeep
+
+B01 - Daily Notes/*
+!B01 - Daily Notes/.gitkeep
+
+B99 - Archives/*
+!B99 - Archives/.gitkeep
+
+Z01 - AI Obsidian/Raw/Assets/*
+Z01 - AI Obsidian/Raw/Bookmarks/*
+Z01 - AI Obsidian/Raw/Documents/*
+Z01 - AI Obsidian/Raw/Notes/*
+!Z01 - AI Obsidian/Raw/Assets/.gitkeep
+!Z01 - AI Obsidian/Raw/Bookmarks/.gitkeep
+!Z01 - AI Obsidian/Raw/Documents/.gitkeep
+!Z01 - AI Obsidian/Raw/Notes/.gitkeep
+
+Z01 - AI Obsidian/Wiki/*
+!Z01 - AI Obsidian/Wiki/.gitkeep
+
+Z04 - Attachments/*
+!Z04 - Attachments/.gitkeep
+
+*.backup*

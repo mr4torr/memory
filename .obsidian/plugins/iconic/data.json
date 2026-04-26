@@ -1,0 +1,123 @@
+{
+  "biggerIcons": "mobile",
+  "clickableIcons": "desktop",
+  "showAllFileIcons": true,
+  "showAllFolderIcons": false,
+  "minimalFolderIcons": false,
+  "showMarkdownTabIcons": true,
+  "showTitleIcons": true,
+  "showTagPillIcons": false,
+  "showMenuActions": true,
+  "showSuggestionIcons": false,
+  "showQuickSwitcherIcons": true,
+  "showMoveFileIcons": true,
+  "showItemName": "desktop",
+  "biggerSearchResults": "mobile",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "rememberDeletedItems": false,
+  "maxBackups": 5,
+  "dialogState": {
+    "iconMode": true,
+    "emojiMode": true,
+    "rulePage": "folder"
+  },
+  "appIcons": {},
+  "tabIcons": {},
+  "fileIcons": {
+    "Z02 - Templates/Calendars/Daily Notes.md": {
+      "icon": "lucide-calendar-days",
+      "color": "orange"
+    },
+    "Z02 - Templates/Tasks/Tasks.md": {
+      "icon": "lucide-star",
+      "color": "yellow"
+    }
+  },
+  "bookmarkIcons": {},
+  "tagIcons": {},
+  "propertyIcons": {
+    "dateCreated": {
+      "icon": "lucide-calendar-days"
+    },
+    "dateModified": {
+      "icon": "lucide-calendar-days"
+    },
+    "involved": {
+      "icon": "lucide-users"
+    },
+    "priority": {
+      "icon": "lucide-map-pin-plus-inside"
+    },
+    "task": {
+      "icon": "lucide-tag"
+    }
+  },
+  "ribbonIcons": {},
+  "fileRules": [
+    {
+      "id": "KAlWI",
+      "name": "Untitled rule",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "contains"
+        }
+      ],
+      "enabled": true
+    }
+  ],
+  "folderRules": [
+    {
+      "id": "1xGOt",
+      "name": "Z99",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "matches",
+          "value": "Z[0-9]{2} -"
+        }
+      ],
+      "enabled": true,
+      "color": "red",
+      "icon": "lucide-folder-git"
+    },
+    {
+      "id": "XSD58",
+      "name": "Reports",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "matches",
+          "value": "B[0-9]{2}"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-network",
+      "color": "green"
+    },
+    {
+      "id": "ziWlF",
+      "name": "Data",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "matches",
+          "value": "A[0-9]{2} -"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-notepad-text-dashed",
+      "color": "cyan"
+    }
+  ]
+}
