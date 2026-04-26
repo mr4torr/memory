@@ -66,10 +66,10 @@ provenience: { extracted: 0.8, inferred: 0.2, ambiguous: 0.0 }
 
 ## Template de Tarefas (Templater)
 Sintaxe de entrada: `FRPHP-1234 - Título @2026-05-01@ !High! $Open$ #api#`
-- `@data@` → scheduled
-- `!prioridade!` → priority (High/Medium/Low)
-- `$status$` → status (Open/In-progress/Done)
-- `#tags#` → tags customizadas
+- `@data` → scheduled
+- `!prioridade` → priority (High/Medium/Low)
+- `$status` → status (Open/In-progress/Done)
+- `#tags` → tags customizadas
 
 ## Scripts Disponíveis
 - `Z01 - AI Obsidian/Scripts/lint.ts`: detecta links quebrados e páginas órfãs

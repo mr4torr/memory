@@ -51,3 +51,4 @@ Z04 - Attachments/*
 !Z04 - Attachments/.gitkeep
 
 *.backup*
+.obsidian/plugins/vector-search/vectors.json

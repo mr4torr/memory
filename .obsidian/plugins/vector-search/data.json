@@ -9,6 +9,6 @@
   "fileProcessingDebounceTime": 2000,
   "modelName": "nomic-embed-text-v2-moe:latest",
   "vectors": [],
-  "lastIndexTime": 1777246683156,
-  "lastIndexCount": 40
+  "lastIndexTime": 1777246970915,
+  "lastIndexCount": 33
 }
