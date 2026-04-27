@@ -3,6 +3,8 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "priority": "multitext"
-  }
+    "priority": "multitext",
+    "menu": "multitext",
+    "tela": "multitext"
+    
 }

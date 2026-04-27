@@ -4,56 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "cce3a8daccf371b7",
+        "id": "ade8efc6013657db",
         "type": "tabs",
         "children": [
           {
-            "id": "fb9f27f463a4da5e",
+            "id": "5633888ab434b1ca",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Z03 - Anchor Topics/Tarefas.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
               "title": "Tarefas"
             }
-          },
-          {
-            "id": "95f42c6c0c9daecc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "dd25739b562e8be5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AGENTS.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "AGENTS"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -72,7 +36,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "alphabeticalReverse",
                 "autoReveal": true
               },
               "icon": "lucide-folder-closed",
@@ -85,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#domain/data",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -110,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 437.5
+    "width": 359.5
   },
   "right": {
     "id": "3a72d7a452f8f83a",
@@ -187,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AGENTS.md",
+                "file": "Z03 - Anchor Topics/Tarefas.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de AGENTS"
+              "title": "Sumário de Tarefas"
             }
           }
         ],
@@ -210,8 +174,8 @@
             "state": {
               "type": "tasknotes-pomodoro-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "tasknotes-pomodoro-view"
+              "icon": "clock",
+              "title": "Pomodoro"
             }
           },
           {
@@ -233,7 +197,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "AGENTS.md",
+                "file": "Z03 - Anchor Topics/Tarefas.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -261,15 +225,15 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de AGENTS"
+              "title": "Gráfico de Tarefas"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 547.5
+    "width": 600.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -279,7 +243,7 @@
       "templates:Inserir modelo": false,
       "canvas:Criar novo canvas": false,
       "graph:Abrir visualização em gráfico": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
+      "bases:Criar nova base": false,
       "omnisearch:Omnisearch": false,
       "tasknotes:Abrir visualização de mini calendário": false,
       "tasknotes:Abrir visualização de calendário": false,
@@ -292,11 +256,11 @@
       "vector-search:Rebuild vector index": false,
       "templater-obsidian:Templater": false,
       "iconic:Open rulebook": false,
-      "terminal:Open terminal": false,
-      "bases:Criar nova base": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "terminal:Open terminal": false
     }
   },
-  "active": "dd25739b562e8be5",
+  "active": "5633888ab434b1ca",
   "lastOpenFiles": [
     "README.md"
   ]
