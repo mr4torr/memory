@@ -6,14 +6,14 @@ Agente autônomo que mantém uma wiki Obsidian como **base de conhecimento pré-
 ## Estrutura do Vault
 ```
 Z01 - AI Obsidian/
-├── index.md          # Catálogo mestre (atualizar após cada escrita)
-├── log.md            # Log cronológico de operações
-├── hot.md            # Cache semântico da sessão (~500 palavras)
-├── .manifest.json    # Fontes ingeridas: caminhos, hashes, páginas geradas
-├── _meta/taxonomy.md # Vocabulário controlado de tags
 ├── /Raw/             # Área de staging — fontes brutas/imutáveis
 ├── /Scripts/         # Scripts CLI (TypeScript/Bun)
 └── /Wiki/            # Conhecimento mantido pelo agente
+    ├── .manifest.json    # Fontes ingeridas: caminhos, hashes, páginas geradas
+    ├── index.md          # Catálogo mestre (atualizar após cada escrita)
+    ├── log.md            # Log cronológico de operações
+    ├── hot.md            # Cache semântico da sessão (~500 palavras)
+    ├── _meta/taxonomy.md # Vocabulário controlado de tags
     ├── concepts/     # Padrões, modelos mentais
     ├── entities/     # Pessoas, ferramentas, projetos
     ├── skills/       # Tutoriais, técnicas
@@ -60,7 +60,7 @@ provenience: { extracted: 0.8, inferred: 0.2, ambiguous: 0.0 }
 ## Convenções Críticas
 - **`[[wikilinks]]`**: toda página linka para ≥2 páginas relacionadas
 - **Marcadores de proveniência**: `^[inferred]` para afirmações sintetizadas, `^[ambiguous]` para divergências — afirmações extraídas não precisam de marcador
-- **`_meta/taxonomy.md`**: tags de sistema `visibility/` **NÃO** vão aqui
+- **`Wiki/_meta/taxonomy.md`**: tags de sistema `visibility/` **NÃO** vão aqui
 - **Nomenclatura de projetos**: `<nome-do-projeto>.md` (não `_projeto.md`) — obsidian graph usa o nome do arquivo como rótulo
 - **`index.md`**: formato ` - [[pagina]] — descrição ( #tag)` com espaço após `(` — sintaxe incorreta quebra a análise de tags
 
@@ -75,7 +75,7 @@ Sintaxe de entrada: `FRPHP-1234 - Título @2026-05-01@ !High! $Open$ #api#`
 - `Z01 - AI Obsidian/Scripts/lint.ts`: detecta links quebrados e páginas órfãs
 
 ## Cross-Project
-1. **`wiki-update`**: ler projeto externo → escrever em `Wiki/projects/<nome>.md` → atualizar `.manifest.json`
+1. **`wiki-update`**: ler projeto externo → escrever em `Wiki/projects/<nome>.md` → atualizar `Wiki/.manifest.json`
 2. **`wiki-query`**: ler `index.md` primeiro, depois `summary:` do YAML — evitar abrir página inteira desnecessariamente
 
 ## Visibility Tags (opcional)

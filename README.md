@@ -21,6 +21,7 @@ Criar os alias para os IDE's e TUI's
 ./setup.sh
 ```
 
+Acesse seu `tui` via terminal e execute: `set up my wiki`
 
 ## Referencia
 

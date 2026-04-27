@@ -151,7 +151,7 @@ After creating/updating pages:
 
 ## Step 6: Update Tracking
 
-### Update `.manifest.json`
+### Update `$OBSIDIAN_WIKI_PATH/Wiki/.manifest.json`
 
 Add or update this project's entry:
 
