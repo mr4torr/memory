@@ -1,4 +1,4 @@
-<%* 
+<%*
 const datePrefix = tp.date.now("YYYY-MM-DD");
 const currentMonth = tp.date.now("YYYY-MM");
 const dailyFolder = `B01 - Daily Notes/${currentMonth}`;
@@ -14,7 +14,7 @@ await tp.file.move(dailyFilePath)
 ## 🎯 Atividades
 
 ```dataview
-TABLE 
+TABLE
   choice(numero_tarefa != "N/A", "[" + task + "](https://sua-empresa.atlassian.net/browse/" + numero_tarefa + ")", "-") AS "Tarefa",
   priority
 FROM #task
@@ -29,4 +29,5 @@ SORT created ASC
 ## 📝 Observações
 
 
-🔗 **Relacionados:**
+
+## 💬 Log de Comunicação
