@@ -104,8 +104,8 @@ echo "✅  Installed global skills → ~/.agents/skills/ (wiki-update, wiki-quer
 
 # install_skills "$HOME/.gemini/skills"             "~/.gemini/skills/ (Gemini CLI)"
 # install_skills "$HOME/.agent/skills"              "~/.agent/skills/ (Antigravity)"
-# install_skills "$HOME/.kiro/skills"               "~/.kiro/skills/ (Kiro CLI)"
-# install_skills "$HOME/.agents/skills"             "~/.agents/skills/ (OpenCode, generic)"
+install_skills "$HOME/.kiro/skills"               "~/.kiro/skills/ (Kiro CLI)"
+install_skills "$HOME/.agents/skills"             "~/.agents/skills/ (OpenCode, generic)"
 
 # ── Step 4: Summary ──────────────────────────────────────────
 SKILL_COUNT=$(echo "$SKILLS_DIR"/*/  | tr ' ' '\n' | grep -c /)

@@ -3,10 +3,10 @@
   "moveArchivedTasks": true,
   "archiveFolder": "A01 - Tasks/03 - Completed",
   "taskTag": "task",
-  "taskIdentificationMethod": "tag",
+  "taskIdentificationMethod": "property",
   "hideIdentifyingTagsInCards": false,
-  "taskPropertyName": "",
-  "taskPropertyValue": "",
+  "taskPropertyName": "category",
+  "taskPropertyValue": "task",
   "excludedFolders": "Z01 - AI Obsidian,Z02 - Templates,Z03 - Anchor Topics,Z04 - Attachments, Z05 - BaseModels",
   "defaultTaskPriority": "normal",
   "defaultTaskStatus": "in-progress",
@@ -28,11 +28,11 @@
     "defaultReminders": []
   },
   "calendarViewSettings": {
-    "defaultView": "dayGridMonth",
+    "defaultView": "timeGridDay",
     "customDayCount": 3,
     "slotDuration": "01:00:00",
-    "slotMinTime": "00:00:00",
-    "slotMaxTime": "24:00:00",
+    "slotMinTime": "07:00:00",
+    "slotMaxTime": "19:00:00",
     "scrollTime": "08:00:00",
     "firstDay": 1,
     "timeFormat": "24",
@@ -42,10 +42,10 @@
     "defaultShowDue": true,
     "defaultShowDueWhenScheduled": true,
     "defaultShowScheduledToDueSpan": false,
-    "defaultShowTimeEntries": false,
+    "defaultShowTimeEntries": true,
     "defaultShowRecurring": true,
     "defaultShowICSEvents": true,
-    "enableTimeblocking": false,
+    "enableTimeblocking": true,
     "defaultShowTimeblocks": true,
     "defaultTimeblockColor": "#6366f1",
     "timeblockAttachmentSearchOrder": "name-asc",
@@ -109,6 +109,11 @@
       {
         "propertyId": "field_1777149066001",
         "trigger": "task:",
+        "enabled": true
+      },
+      {
+        "propertyId": "field_1777329697681",
+        "trigger": "category:",
         "enabled": true
       }
     ]
@@ -268,9 +273,16 @@
         "propertyKey": "",
         "propertyValue": ""
       }
+    },
+    {
+      "id": "field_1777329697681",
+      "displayName": "Categoria",
+      "key": "category",
+      "type": "text",
+      "defaultValue": "task"
     }
   ],
-  "enableModalSplitLayout": false,
+  "enableModalSplitLayout": true,
   "defaultVisibleProperties": [
     "status",
     "priority",
@@ -430,6 +442,16 @@
         "fieldType": "user",
         "group": "basic",
         "displayName": "Tarefa",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 0,
+        "enabled": true
+      },
+      {
+        "id": "field_1777329697681",
+        "fieldType": "user",
+        "group": "custom",
+        "displayName": "Categoria",
         "visibleInCreation": true,
         "visibleInEdit": true,
         "order": 0,

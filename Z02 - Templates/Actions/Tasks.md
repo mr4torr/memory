@@ -75,7 +75,8 @@ rawInput = rawInput.replace(/[a-zA-Z]+-\d+/g, (match) => {
 });
 
 // 5. FORMATAÇÃO DE TAGS YML
-const tagsYaml = ["task", ...customTags].map(tag => `  - ${tag}`).join("\n");
+const tagsYaml = customTags.map(tag => `  - ${tag}`).join("\n");
+const contextsYaml = contexts.map(tag => `  - ${tag}`).join("\n");
 
 // Limpa múltiplos espaços e remove hifens soltos que possam ter sobrado no começo ou no fim do texto
 rawInput = rawInput.replace(/\s+/g, " ").replace(/^[-\s]+|[-\s]+$/g, '').trim();
@@ -107,6 +108,7 @@ await tp.file.move(`${folder}/${finalFileName}`);
 ---
 title: "<% taskTitle %>"
 status: <% taskStatus %>
+category: task
 priority: <% taskPriority %>
 scheduled: <% scheduledDate %>
 task: "<% taskNumber %>"
@@ -127,10 +129,10 @@ dateModified: <% tp.date.now("YYYY-MM-DD HH:mm:ss") %>
 
 🎯 **Objetivo:**
 
-### Contexto
-**Qual é o problema real que estou tentando resolver?**
-
-**Qual o estado atual do sistema?**
+> [!info] Contexto
+> Qual é o problema real que estou tentando resolver?
+> Qual o estado atual do sistema?
+> 
 
 <% tp.file.cursor(1) %>
 
@@ -146,14 +148,17 @@ dateModified: <% tp.date.now("YYYY-MM-DD HH:mm:ss") %>
 ---
 
 ### 🛠️ 2. Sub-tarefas
+
 - [ ] [[A01 - Tasks/02 - InProgress/<% finalFileName %>/Análise inicial|🏗️ Análise inicial]]
-- [ ] [[A01 - Tasks/02 - InProgress/<% finalFileName %>/Implementação|🧪 Implementação]]
-- [ ] [[A01 - Tasks/02 - InProgress/<% finalFileName %>/Verificação & Testes|🏁 Verificação & Testes]]
+- [ ] [[A01 - Tasks/02 - InProgress/<% finalFileName %>/Daily|📅 Daily]]
+- [ ] [[A01 - Tasks/02 - InProgress/<% finalFileName %>/Implementação|🚧 Implementação]]
+- [ ] [[A01 - Tasks/02 - InProgress/<% finalFileName %>/Verificação & Testes|🧪 Verificação & Testes]]
+- [ ] [[A01 - Tasks/02 - InProgress/<% finalFileName %>/Conclusão|🏁 Conclusão]]
 
 ---
 
 ### 📝 3. Timeline de execução
-- **<% tp.date.now("HH:mm") %>**: Iniciando a análise técnica.
+- **<% tp.date.now("DD/MM HH:mm") %>**: Iniciando a análise técnica.
 
 ---
 

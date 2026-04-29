@@ -165,7 +165,7 @@ Check `index.md` for existing pages on the same topics — merge into existing p
 
 ## Update Tracking Files
 
-**`.manifest.json`** — Add a `research` entry:
+**`$OBSIDIAN_WIKI_PATH/Wiki/.manifest.json`** — Add a `research` entry:
 ```json
 {
   "type": "research",

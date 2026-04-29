@@ -3,7 +3,7 @@ config
 .DS_Store
 .agents
 .agent
-.kiro
+.kiro/skills
 .opencode
 .antigravity
 

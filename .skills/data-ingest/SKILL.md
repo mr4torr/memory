@@ -16,8 +16,8 @@ You are ingesting arbitrary text data into an Z01 - AI Obsidian. The source coul
 ## Before You Start
 
 1. Read `.env` to get `OBSIDIAN_WIKI_PATH`
-2. Read `.manifest.json` at the vault root — check if this source has been ingested before
-3. Read `index.md` at the vault root to know what already exists
+2. Read `$OBSIDIAN_WIKI_PATH/Wiki/.manifest.json` at the vault root — check if this source has been ingested before
+3. Read `$OBSIDIAN_WIKI_PATH/Wiki/index.md` at the vault root to know what already exists
 
 If the source path is already in `.manifest.json` and the file hasn't been modified since `ingested_at`, tell the user it's already been ingested. Ask if they want to re-ingest anyway.
 
@@ -122,7 +122,7 @@ Follow the `wiki-ingest` skill's process for creating/updating pages:
 
 ## Step 5: Update Manifest and Special Files
 
-**`.manifest.json`** — Add an entry for each source file processed:
+**`$OBSIDIAN_WIKI_PATH/Wiki/.manifest.json`** — Add an entry for each source file processed:
 ```json
 {
   "ingested_at": "TIMESTAMP",

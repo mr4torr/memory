@@ -7,6 +7,9 @@ const dailyFilePath = `${dailyFolder}/${datePrefix}`;
 await tp.file.move(dailyFilePath)
 
 -%>
+---
+ category: daily-notes
+---
 
 ## 🎯 Atividades
 
