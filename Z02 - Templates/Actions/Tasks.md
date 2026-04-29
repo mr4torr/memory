@@ -90,18 +90,17 @@ if (!app.vault.getAbstractFileByPath(folder)) {
 }
 
 // 4. LÓGICA DA DAILY NOTE
-const dailyFile = app.vault.getAbstractFileByPath(dailyFilePath);
+const dailyFile = app.vault.getAbstractFileByPath(`${dailyFilePath}.md`);
 if (!dailyFile) {
     const dailyTemplateFile = app.vault.getAbstractFileByPath(dailyTemplatePath);
-    if (dailyTemplateFile) {
-         const dailyContent = await tp.file.include(dailyTemplateFile);
-    //     if (!app.vault.getAbstractFileByPath(dailyFolder)) {
+	if (dailyTemplateFile) {
+		const dailyContent = await tp.file.include(dailyTemplateFile);
+     //     if (!app.vault.getAbstractFileByPath(dailyFolder)) {
      //        await app.vault.createFolder(dailyFolder);
      //    }
-        await app.vault.create(dailyFilePath, dailyContent);
+		await app.vault.create(dailyFilePath, dailyContent);
     }
 }
-
 await tp.file.move(`${folder}/${finalFileName}`);
 
 -%>
