@@ -157,11 +157,6 @@
   ],
   "interfaceFonts": [
     {
-      "id": "geist",
-      "family": "Geist",
-      "precedence": 0
-    },
-    {
       "id": "inter",
       "family": "Inter",
       "precedence": 1
@@ -169,25 +164,20 @@
   ],
   "textFonts": [
     {
-      "id": "geist",
-      "family": "Geist",
-      "precedence": 0
-    },
-    {
       "id": "inter",
       "family": "Inter",
-      "precedence": 0
+      "precedence": 1
     }
   ],
   "monospaceFonts": [
     {
-      "id": "jetbrains-mono",
-      "family": "JetBrains Mono",
+      "id": "geist-mono",
+      "family": "Geist Mono",
       "precedence": 0
     },
     {
-      "id": "geist-mono",
-      "family": "Geist Mono",
+      "id": "jetbrains-mono",
+      "family": "JetBrains Mono",
       "precedence": 0
     }
   ]

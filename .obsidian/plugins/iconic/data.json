@@ -33,10 +33,6 @@
     "Z02 - Templates/Calendars/Daily Notes.md": {
       "icon": "lucide-calendar-days",
       "color": "orange"
-    },
-    "Z02 - Templates/Tasks/Tasks.md": {
-      "icon": "lucide-star",
-      "color": "yellow"
     }
   },
   "bookmarkIcons": {},

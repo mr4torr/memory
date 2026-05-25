@@ -52,3 +52,4 @@ Z04 - Attachments/*
 
 *.backup*
 .obsidian/plugins/vector-search/vectors.json
+.obsidian.local

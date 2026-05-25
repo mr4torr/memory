@@ -148,7 +148,7 @@ dateModified: <% tp.date.now("YYYY-MM-DD HH:mm:ss") %>
 
 ### 🛠️ 2. Sub-tarefas
 
-- [ ] [[A01 - Tasks/02 - InProgress/<% finalFileName %>/Análise inicial|🏗️ Análise inicial]]
+- [ ] [[A01 - Tasks/02 - InProgress/<% finalFileName %>/Análise|🏗️ Análise]]
 - [ ] [[A01 - Tasks/02 - InProgress/<% finalFileName %>/Daily|📅 Daily]]
 - [ ] [[A01 - Tasks/02 - InProgress/<% finalFileName %>/Implementação|🚧 Implementação]]
 - [ ] [[A01 - Tasks/02 - InProgress/<% finalFileName %>/Verificação & Testes|🧪 Verificação & Testes]]

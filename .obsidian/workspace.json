@@ -11,10 +11,15 @@
             "id": "5633888ab434b1ca",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "A05 - KnowledgeBase/Comportamentos/Exceções do machete.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "Tarefas"
+              "title": "Exceções do machete"
             }
           }
         ]
@@ -151,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Z03 - Anchor Topics/Tarefas.md",
+                "file": "A05 - KnowledgeBase/Comportamentos/Exceções do machete.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Tarefas"
+              "title": "Sumário de Exceções do machete"
             }
           }
         ],
@@ -174,8 +179,8 @@
             "state": {
               "type": "tasknotes-pomodoro-view",
               "state": {},
-              "icon": "clock",
-              "title": "Pomodoro"
+              "icon": "lucide-ghost",
+              "title": "tasknotes-pomodoro-view"
             }
           },
           {
@@ -256,12 +261,44 @@
       "vector-search:Rebuild vector index": false,
       "templater-obsidian:Templater": false,
       "iconic:Open rulebook": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "terminal:Open terminal": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "5633888ab434b1ca",
   "lastOpenFiles": [
+    "A05 - KnowledgeBase/Telas/AD076.md",
+    "A01 - Tasks/02 - InProgress/FRPHP-2003 - Campo Código do tipo de portfólio vem vazio no log da trilha de auditoria do SE Projeto/Análise inicial.md",
+    "A01 - Tasks/02 - InProgress/FRPHP-2003 - Campo Código do tipo de portfólio vem vazio no log da trilha de auditoria do SE Projeto.md",
+    "Z04 - Attachments/202604/image/Análise inicial-1777472102362.webp",
+    "Z04 - Attachments/202604/image/Análise inicial-1777469140268.webp",
+    "Z04 - Attachments/202604/image/Análise inicial-1777468271472.webp",
+    "Z02 - Templates/Actions/Tasks.md",
+    "Z04 - Attachments/202604/image/FRPHP-2003 - Campo Código do tipo de portfólio vem vazio no log da trilha de auditoria do SE Projeto-1777467314690.webp",
+    "A06 - Peer Review/2026-04/FRPHP-1693 - Padronizar erro de registro não encontrado quando utilizado a injeção da entidade via argumento no controller..md",
+    "A01 - Tasks/03 - Completed/FRPHP-1999 - Habilitar filtros de Tempo no menu Turno (AD076).md",
+    "A01 - Tasks/03 - Completed/FRPHP-1999 - Habilitar filtros de Tempo no menu Turno (AD076)/Implementação.md",
+    "A01 - Tasks/03 - Completed/FRPHP-1999 - Habilitar filtros de Tempo no menu Turno (AD076)/Análise inicial.md",
+    "A01 - Tasks/03 - Completed/FRPHP-1999 - Habilitar filtros de Tempo no menu Turno (AD076)/Verificação & Testes.md",
+    "Z01 - AI Obsidian/Wiki/entities/frphp-2003.md",
+    "Z01 - AI Obsidian/Wiki/entities/frphp-1948.md",
+    "Z01 - AI Obsidian/Wiki/entities/frphp-1693.md",
+    "Z01 - AI Obsidian/Wiki/entities/frphp-1999.md",
+    "Z01 - AI Obsidian/Wiki/projects/frphp.md",
+    "Z01 - AI Obsidian/Wiki/references/machete-exception-handling.md",
+    "Z01 - AI Obsidian/Wiki/references/frphp-se-time-mapping.md",
+    "Z01 - AI Obsidian/Wiki/references/ad076-se-time-validation.md",
+    "Z01 - AI Obsidian/Wiki/log.md",
+    "Z01 - AI Obsidian/Wiki/hot.md",
+    "Z01 - AI Obsidian/Wiki/index.md",
+    "B01 - Daily Notes/2026-04/2026-04-28.md",
+    "Z04 - Attachments/202604/image/Verificação & Testes-1777311826959.webp",
+    "Z04 - Attachments/202604/image/FRPHP-1999 - Habilitar filtros de Tempo no menu Turno (AD076)-1777315676475.webp",
+    "Z04 - Attachments/202604/image/FRPHP-1948 - Ajustado o template do service para definir o token da auditoria-1777294453349.webp",
+    "Z04 - Attachments/202604/image/AD076-1777314638651.webp",
+    "A01 - Tasks/03 - Completed/FRPHP-1999 - Habilitar filtros de Tempo no menu Turno (AD076)/Conclusão.md",
+    "A01 - Tasks/03 - Completed/FRPHP-1999 - Habilitar filtros de Tempo no menu Turno (AD076)/Daily.md",
+    "Z02 - Templates/Calendars/Daily Notes.md",
+    "B01 - Daily Notes/2026-04/2026-04-29.md",
     "README.md"
   ]
 }
