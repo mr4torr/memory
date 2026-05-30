@@ -29,6 +29,9 @@ A04 - References/*
 A05 - KnowledgeBase/*
 !A05 - KnowledgeBase/.gitkeep
 
+A06 - Peer Review/*
+!A06 - Peer Review/.gitkeep
+
 B01 - Daily Notes/*
 !B01 - Daily Notes/.gitkeep
 
